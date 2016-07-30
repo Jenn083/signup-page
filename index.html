@@ -5,7 +5,7 @@
 </head>
 <body>
 	<header>
-		<img src="../analogsea.png" class="logo">
+		<img src="../analogsea.png" class="logo" alt="AnalogSea logo">
 	</header>
 	<main class="container">
 		<div class="white-box">
@@ -13,19 +13,19 @@
 		<div class="form-align-left">
 		<form>
 			Email 
-			<input type="email" name="email" placeholder="foo@bar.com" class="email" required="">
+			<input type="email" name="user_email" placeholder="foo@bar.com" class="email" required="">
 		</form>
 		<form>
 			Password
-			<input type="password" name="password" placeholder="1234passwOrd" class="password" required="">
+			<input type="password" name="user_password" placeholder="1234passwOrd" label="false" autocomplete="off" class="password" required="">
 		</form>
-		<form action="action_page.php" method="post" >
+		<form action="/signup" accept-charset="UTF-8 method="post">
 		<input type="submit" value="Sign up" class="signup">
 		</form>
-		<p class="forgot-password"><a href="#">Forgot password?</a></p>
+		<p class="forgot-password"><a href="/forgot_password/new">Forgot password?</a></p>
 		</div>
 		</div>
-		<span><h4>Already have an account? <a href="#">Log in</a></h4></span>
+		<span><h4>Already have an account? <a href="/login">Log in</a></h4></span>
 	</main>
 </body>
 </html>

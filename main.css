@@ -75,6 +75,14 @@ color: white;
 border-radius: 2px;
 }
 
+.signup:hover[type='submit'] {
+   background-color: #0CB863;
+   -webkit-transition: background 0.1s;
+   -moz-transition: background 0.1s;
+   -o-transition: background 0.1s;
+   transition: background 0.1s;
+ }
+ 
 p a {
 
 	color: grey;
