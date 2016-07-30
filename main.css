@@ -52,7 +52,11 @@ a {
 	margin-top: 25px;
 }
 
- .forms-align-left {
+<<<<<<< HEAD
+ .forms-align-l {
+=======
+ .form-align-left {
+>>>>>>> efe85eb200a838953bc55c59fe095fee7be6edcd
 
  	margin-left: 35px;
  }
@@ -75,6 +79,7 @@ color: white;
 border-radius: 2px;
 }
 
+<<<<<<< HEAD
 .signup:hover[type='submit'] {
    background-color: #0CB863;
    -webkit-transition: background 0.1s;
@@ -83,6 +88,8 @@ border-radius: 2px;
    transition: background 0.1s;
  }
  
+=======
+>>>>>>> efe85eb200a838953bc55c59fe095fee7be6edcd
 p a {
 
 	color: grey;
