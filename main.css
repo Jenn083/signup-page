@@ -1,37 +1,37 @@
 body {
-background: url(http://wallpapercave.com/wp/HLy0ev6.png) no-repeat;
+	background: url(http://wallpapercave.com/wp/HLy0ev6.png) no-repeat;
 }
 
 header {
-padding: 60px;
-margin-left: 415px;
+	padding: 60px;
+	margin-left: 415px;
 
 }
 
 
 .white-box {
-background-color: white;
-width: 400px;
-height: 500px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 40px;
-padding-right:40px;
+	background-color: white;
+	width: 400px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	padding-right:40px;
 }
 
 .logo {
-width: 30%;
-height: 35px;
-margin-left: auto;
-margin-right: auto;
+	width: 30%;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .center {
-text-align: center;
-color: black;
-font-size: 35px;
-padding-top: 30px;
-padding-bottom: 15px;
+	text-align: center;
+	color: black;
+	font-size: 35px;
+	padding-top: 30px;
+	padding-bottom: 15px;
 }
 
 h4 {
@@ -68,12 +68,23 @@ a {
 }
 
 .signup {
-width: 325px;
-height: 55px;
-background-color: green;
-color: white;
-border-radius: 2px;
+	width: 325px;
+	height: 55px;
+	background-color: green;
+	color: white;
+	border-radius: 2px;
 }
+
+
+.signup:hover[type='submit'] {
+   background-color: #0CB863;
+   -webkit-transition: background 0.1s;
+   -moz-transition: background 0.1s;
+   -o-transition: background 0.1s;
+   transition: background 0.1s;
+ }
+
+
 
 p a {
 
